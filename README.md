@@ -20,4 +20,4 @@ Age: XX years , MM month, DD days
 - Material Date picker can be used to pick DOB date, month and year for better user experience.
 - Multiple text views can be used to display the details on the ViewProfileFragment to avoid alignment issues if values goes beyond 1 line.
 
-#### Sample screenshots, video and APK is in the [screenshots](https://github.com/dhavalrupapara14/AliveCorDemo/tree/main/screenshots) folder.
+#### Sample screenshots, video and APK are in the [screenshots](https://github.com/dhavalrupapara14/AliveCorDemo/tree/main/screenshots) folder.
