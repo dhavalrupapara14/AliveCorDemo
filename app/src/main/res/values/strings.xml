@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">AliveCorDemo</string>
+
+    <string name="user_profile">User Profile</string>
+    <string name="hint_first_name">First Name</string>
+    <string name="hint_last_name">Last Name</string>
+    <string name="hint_dob">Date of Birth</string>
+    <string name="next">Next</string>
+    <string name="error_first_name">First name can not be blank</string>
+    <string name="error_last_name">Last name can not be blank</string>
+    <string name="error_dob_date">Date of birth is invalid!! It can not be today or future date</string>
+
+    <string-array name="months_array">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string name="profile_details">Profile Details</string>
+    <string name="first_name_colon">First name:</string>
+    <string name="last_name_colon">Last name:</string>
+    <string name="age_colon">Age:</string>
+    <string name="profile_detail_values"><![CDATA[
+    <b>First name:</b> %1s<br/><b>Last name:</b> %2s<br/><b>Age:</b> %3s, %4s, %5s
+    ]]></string>
+
+    <plurals name="days">
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+    <plurals name="months">
+        <item quantity="one">%d month</item>
+        <item quantity="other">%d months</item>
+    </plurals>
+    <plurals name="years">
+        <item quantity="one">%d year</item>
+        <item quantity="other">%d years</item>
+    </plurals>
+</resources>
