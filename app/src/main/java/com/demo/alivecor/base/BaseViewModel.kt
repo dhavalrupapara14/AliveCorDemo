@@ -2,6 +2,7 @@ package com.demo.alivecor.base
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.demo.alivecor.utils.SingleLiveData
 
 /**
  * Parent class for all ViewModel classes
@@ -9,8 +10,8 @@ import androidx.lifecycle.ViewModel
  */
 abstract class BaseViewModel : ViewModel() {
     // Observable for view clicks
-    val viewClick: MutableLiveData<Int> by lazy {
-        MutableLiveData()
+    val viewClick: SingleLiveData<Int> by lazy {
+        SingleLiveData()
     }
 
     // Observable for showing validation errors on fields

@@ -98,11 +98,8 @@ class ProfileFragment : BaseFragment() {
             return
 
         // Next button click observer
-        viewModel.viewClick.observe(this, Observer {
+        viewModel.viewClick.observe(viewLifecycleOwner, Observer {
             if (it == binding.btnNext.id) {
-                // reset value to avoid multiple callbacks
-                viewModel.viewClick.value = -1
-
                 // hide keyboard before moving to next fragment.
                 hideKeyboard(requireActivity(), binding.etFirstName)
 
@@ -116,7 +113,7 @@ class ProfileFragment : BaseFragment() {
         })
 
         // Show validation errors on fields
-        viewModel.showErrorFields.observe(this, Observer {
+        viewModel.showErrorFields.observe(viewLifecycleOwner, Observer {
             when(it) {
                 R.id.tilFirstName -> {
                     binding.tilFirstName.error = getString(R.string.error_first_name)
@@ -131,7 +128,7 @@ class ProfileFragment : BaseFragment() {
         })
 
         // Clear validation errors on fields.
-        viewModel.removeErrorFields.observe(this, Observer {
+        viewModel.removeErrorFields.observe(viewLifecycleOwner, Observer {
             when(it) {
                 R.id.tilFirstName -> {
                     binding.tilFirstName.error = null
