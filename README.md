@@ -14,8 +14,10 @@ Last name: “BBB”
 Age: XX years , MM month, DD days
 ```
 
-#### The app has been implemented based on above requirements (Exactly followed requirements) using MVVM, databinding and material UI components. It supports both portrait and landscape orientations.
+#### The app has been implemented based on above requirements (exactly followed the requirements) using MVVM, databinding and material UI components. It supports both portrait and landscape orientations.
 
 ###### What can be replaced/changed?
 - Material Date picker can be used to pick DOB date, month and year for better user experience.
 - Multiple text views can be used to display the details on the ViewProfileFragment to avoid alignment issues if values goes beyond 1 line.
+
+#### Sample screenshots, video and APK are in the [screenshots](https://github.com/dhavalrupapara14/AliveCorDemo/tree/main/screenshots) folder.
